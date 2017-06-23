@@ -1,0 +1,25 @@
+{
+  "name": "bpmn-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "./node_modules/.bin/webpack",
+    "serve": "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bpmn-js": "^0.20.7",
+    "diagram-js": "^0.19.6",
+    "lodash": "^4.17.4",
+    "min-dom": "^0.2.0",
+    "tiny-svg": "^0.1.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
